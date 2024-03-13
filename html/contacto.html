@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img class="imagen-logo" src="../imagenes/Logos/Logo.png" alt="Logo">
+            <h3>ALL<span>SHOES</span></h3>
+        </div>
+        <div class="enlaces">
+            <ul clas="main-menu">
+                <li class="menu-item"><a href="../index.html">INICIO</a></li>
+                <li class="menu-item"><a href="sobreNosotros.html">SOBRE NOSOTROS</a></li>
+                <li class="menu-item"><a href="cursos.html">CURSOS</a></li>
+                <li class="menu-item"><a href="tienda.html">TIENDA</a></li>
+                <li class="menu-item"><a href="#">CONTACTO</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <h1 class="separador">CONTACTO</h1>
+        <div class="info">
+            <h2>¿TIENES ALGUNA DUDA?</h2>
+            <p>Estamos a tu disposición para brindarte la mejor asesoría y experiencia deportiva, fijando nuestra meta
+                en la mayor satisfacción de nuestros clientes.
+            </p>
+            <p>
+                En ALLShoes, tu satisfacción es nuestra prioridad. Si tienes alguna
+                pregunta, inquietud o simplemente quieres obtener más información sobre nuestros productos o servicios,
+                no dudes en ponerte en contacto con nuestro equipo de atención al cliente. Estamos aquí para brindarte
+                la mejor asistencia y asegurarnos de que encuentres los zapatos deportivos perfectos que se adapten a tu
+                estilo y necesidades. ¡Haznos saber cómo podemos ayudarte a dar el siguiente paso!
+            </p>
+            <h4>E-mail:</h4>
+            <p>info@allshoes.es</p>
+            <h4>Redes Sociales:</h4>
+            <div class="arco-logos">
+                <a href="../index.html"><img id="logo-allshoes" src="../imagenes/Logos/Logo.png"
+                        alt="Logo-allshoes"></a>
+                <a href="https://web.telegram.org"><img class="icon" id="tg"
+                        src="../imagenes/RedesSociales/telegram-icon.png" alt="Telegram"></a>
+                <a href="https://www.whatsapp.com"><img class="icon" id="wa"
+                        src="../imagenes/RedesSociales/whatsapp-logo.png" alt="whatsapp"></a>
+                <a href="https://twitter.com"><img class="icon" id="tw" src="../imagenes/RedesSociales/twitter-icon.png"
+                        alt="twitter"></a>
+                <a href="https://www.instagram.com"><img class="icon" id="ig"
+                        src="../imagenes/RedesSociales/instagram-logo.png" alt="instagram"></a>
+                <a href="https://www.facebook.com"><img class="icon" id="fb"
+                        src="../imagenes/RedesSociales/facebook-icon.png" alt="facebook"></a>
+            </div>
+        </div>
+
+        <div class="formulario">
+            <form name="contacto" method="post" action="">
+                <div>
+                    <input type="text" name="nombre" placeholder="NOMBRE" required pattern="[a-z][A-Z]" />
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="CORREO (CORREO@EMAIL.COM)" required pattern="%\@%" />
+                </div>
+                <div>
+                    <input type="text" name="telefono" placeholder="TELÉFONO (+34 XXX XXX XXX)" required
+                        pattern="\+% [0-9]" />
+                </div>
+                <div>
+                    <select name="tema">
+                        <option value="">TEMA</option>
+                        <option value="queja">Incidencia</option>
+                        <option value="sugerencia">Sugerencia</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea name="Mensaje" placeholder="MENSAJE"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" required> Aceptar <a href="#">condiciones</a>
+                </div>
+                <div id="boton-envio">
+                    <button type="submit">ENVIAR</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

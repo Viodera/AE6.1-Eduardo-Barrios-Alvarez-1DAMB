@@ -1,0 +1,46 @@
+.separador {
+    padding: 25PX;
+    text-align: center;
+}
+.main-container{
+    padding: 10px 15px;
+}
+.curso{
+    text-align: justify;
+    display: flow-root;
+}
+.detalles{
+    width: 60%;
+    float:right;
+    padding: 30px 20px;
+}
+.detalles p{
+    padding: 20px 0px;
+}
+.detalles a{
+    float:right;
+    color:white;
+    background-color: grey;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.detalles a:hover{
+    color: grey;
+    border: 3px solid grey;
+    background-color: white;
+    font-weight: 700;
+}
+#falsificaciones img{
+    width: 40%;
+    float: left;
+    padding-right: 15px;
+}
+
+#diseno img{
+    width: 40%;
+    float: right;
+    padding-right: 15px; 
+}
+

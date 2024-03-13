@@ -1,0 +1,116 @@
+.separador {
+    padding: 25PX;
+    text-align: center;
+}
+
+.main-container {
+    display: flow-root;
+    padding: 10px 30px;
+}
+
+.info {
+    width: 50%;
+    float: left;
+}
+
+.info p {
+    padding-bottom: 10px;
+}
+
+.info h2+p {
+    font-weight: 600;
+}
+
+.info h2 {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.arco-logos {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#logo-allshoes {
+    margin: 5%;
+    width: 150px;
+}
+
+.arco-logos .icon {
+    position: absolute;
+    width: 33px;
+    cursor: pointer;
+}
+
+#tg {
+    left: 33%;
+    top: 40%;
+}
+
+#wa {
+    left: 38%;
+    top: 12%;
+}
+
+#tw {
+    left: 47.5%;
+    top: 0%;
+}
+
+#ig {
+    top: 12%;
+    left: 57%;
+}
+
+#fb {
+    left: 63%;
+    top: 40%;
+}
+
+/*----FORMULARIO-------*/
+
+.formulario {
+    width: 50%;
+    float: right;
+    padding-left: 20px;
+}
+
+form div input,
+form div select,
+form div textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: 550;
+}
+
+form div textarea {
+    height: 200px;
+}
+
+form div input[type="checkbox"] {
+    width: auto;
+    margin-left: 20px;
+}
+
+#boton-envio {
+    display: flow-root;
+}
+
+form div button {
+    background-color: rgb(73, 72, 72);
+    color: white;
+    padding: 5px 50px;
+    border-radius: 40px;
+    float: right;
+    margin: 10px;
+    cursor:pointer;
+}
+
+form div button:hover{
+    border:1.5px solid rgb(73, 72, 72);
+    color:rgb(73, 72, 72);
+    background-color: white;
+}

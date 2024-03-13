@@ -1,0 +1,56 @@
+.separador {
+    padding: 25PX;
+    text-align: center;
+}
+
+.main-info .logo h3 {
+    color: black;
+}
+
+h3 span {
+    color: orange;
+}
+.logotipo{
+    display: flow-root;
+     margin:10px 0px;
+}
+.imagen-logotipo {
+    width: 5%;
+    float:left;
+}
+
+.logotipo h3 {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+
+.main-container {
+    display: flow-root;
+    text-align: justify;
+    padding: 0px 30px;
+}
+
+.main-container #foto-tienda {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    height: 60vh;
+}
+
+.main-container .textos {
+    width: 65%;
+    float: right;
+}
+
+.main-info p {
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.body-info{
+    margin-bottom: 20px;
+}
+.redes img {
+    width: 4%;
+    margin: 4px;
+}

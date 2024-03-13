@@ -1,0 +1,59 @@
+.main-container{
+    /* margin: 15px; */
+    padding: 0px 15px;
+}
+
+.imagen-portada{
+    background-image: url("../Imagenes/Carroussel/Carroussel-1.webp"); 
+    background-size: cover; 
+    height: 80vh;
+    background-position: bottom;
+}
+.imagen-portada p{
+    color: white;
+    font-size: 70px;
+    padding: 100px 50px;
+    width: 20%;
+}
+.informacion{
+    margin: 20px 0px;
+}
+.texto p{ 
+    margin-bottom: 10px;
+}
+.texto a {
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    margin:4px;
+    font-weight: 700;
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+    border: 2.5px solid black;
+}
+.texto a:hover{
+    color:black;
+    background-color: whitesmoke;
+}
+button:hover{
+    color: black;
+}
+
+.texto {
+    margin-top: 15px;
+    font-size: 25px;
+    width: 40%;
+    float: left;
+    text-align: justify;
+}
+.imagenes{
+    width: 60%;
+    display: flow-root;
+}
+
+.imagenes img{
+    margin-left: 8px;
+    width: 30%;
+    float: right;
+}

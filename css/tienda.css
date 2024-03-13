@@ -2,7 +2,7 @@
     padding: 25PX;
     text-align: center;
 }
-.main-container {
+.contenido {
     padding: 0px 10px;
 }
 .articulo{
@@ -23,10 +23,29 @@ h5{
 .articulo a{
     background-color: rgb(69, 67, 67);
     color: white;
-    padding: 5px;
+    padding: 12px;
     text-decoration: none;
+    border-radius: 50%;
+    font-size: 0.8rem;
 }
-
+.articulo a .carrito{
+    width: 15px;
+    fill: transparent;
+    display:none;
+}
+.articulo:hover a .carrito{
+    text-align: center;
+    display:inline-block;
+    fill: orange;
+    margin-right: 3px;
+}
+.articulo:hover a{
+    padding: 10px; 
+    background-color: transparent;
+    color: black;
+    border-bottom: 3px solid orange;
+    border-radius: 50%;
+}
 .navegador{
     display: flex;
     margin: 20px;
@@ -40,5 +59,9 @@ h5{
     font-size: 0.6rem;
     padding: 8px 10px;
     border-radius: 100%;
-    
+}
+
+.navegador a:hover {
+    background-color:rgba(255, 166, 0, 0.69);
+    color: transparent; 
 }

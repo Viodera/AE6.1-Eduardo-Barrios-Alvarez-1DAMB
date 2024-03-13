@@ -25,7 +25,7 @@ h3 span {
 }
 
 
-.main-container {
+.contenido {
     display: flow-root;
     text-align: justify;
     padding: 0px 30px;
@@ -53,4 +53,7 @@ h3 span {
 .redes img {
     width: 4%;
     margin: 4px;
+}
+.redes img:hover{
+    width: 4.5%;
 }
